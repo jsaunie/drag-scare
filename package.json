@@ -4,6 +4,7 @@
   "description": "IIM A2 DW - Deploy front and api course",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
