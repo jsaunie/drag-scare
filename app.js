@@ -6,6 +6,10 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/src/index.html'));
 });
 
+app.get('/api', function (req, res) {
+    res.send(['Bonjour', 'voici', 'un', 'tableau', 'de', 'string'])
+});
+
 app.use(express.static(__dirname + '/src'));
 
 app.listen(3000, function () {
